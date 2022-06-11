@@ -1,0 +1,9 @@
+version: '2'
+services:
+ nginx:
+   image: vulhub/nginx:1
+   volumes:
+    - ./configuration:/etc/nginx/conf.d
+    - ./www/:/usr/share/nginx/html/
+   ports:
+    - "8443:8443"
