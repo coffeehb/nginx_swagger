@@ -1,0 +1,9 @@
+{
+    "url": "http://VPS:8443/test.yaml",
+    "urls": [
+        {
+            "url": "http://VPS:8443/test.yaml",
+            "name": "Foo"
+        }
+    ]
+}
